@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* place-content: center; */
+}
+
+.logo {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-right: 7rem;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.sliderContainer {
+    overflow: hidden;
+}
+
+.sliderContainer figure {
+    position: relative;
+    width: 300%;
+    left: 0;
+    margin: 0;
+}
+
+.sliderImage {
+    width: 33.3%;
+    float: left;
+}
+
+.sliderButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.sliderButton{
+    accent-color: white;
+}
+.checked{
+    accent-color: orange;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem; 
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 5rem;
+}
+
+.solutionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 6rem;
+}
+
+.solution {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.fa-circle {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    /* border: 1px solid grey; */
+    padding: 1rem;
+}
+
+.featuresInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.featureImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin: 4rem;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem
+}
+
+.featureContent {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.allFeatures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.supportInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem; 
+}
+.supportInfo {
+    background-color: orangered;
+    height: 30rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.buttonContainer button {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.aboutUs {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.aboutUsHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.customerImage {
+    border-radius: 15%;
+}
+
+.aboutUsContent {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    justify-content: center;
+}
+
+.aboutUsfeedback {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.subfooterSection {
+    background-color: rgb(52, 48, 48);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    padding: 10rem 10rem;
+}
+
+.multiSection {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 4rem
+}
+
+.multiSectionInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.multiSectionInfoPara {
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.multisectionIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.recentPostSection {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 4rem
+}
+
+.recentPostInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 4rem
+}
+
+.contactSectionInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.fa-light {
+    color: white;
+    font-size: 2rem;
+}
+
+.fa-brands {
+    font-size: 2rem;
+}
+
+.circleIcon {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    /* border: 1px solid grey; */
+    padding: 0.8rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contactIcon {
+    font-size: 2rem;
+}
+
+.subfooterSections {
+    width: 30%
+}
+
+.horizontalLine {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15rem;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding-right: 15rem;
+}
